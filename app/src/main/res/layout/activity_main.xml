@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_on_surface_stroke">
+
+    <!-- ImageView at the top and center -->
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <!-- TextView for name -->
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anurag Lohar"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"/>
+
+    <TextView
+        android:id="@+id/textViewRole1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Stack Web Developer"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewRole2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Application Developer"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewRole1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/buttonGithub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Github →"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/buttonPortfolio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonPortfolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Website ✨"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewRole2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonLinkedIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LinkedIn →"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/buttonGithub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
